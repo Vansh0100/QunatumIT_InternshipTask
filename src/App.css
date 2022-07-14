@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+#gradient{
+    /* Created with https://www.css-gradient.com */
+    height: 75%;
+background: rgb(246, 249, 251);
+background: -webkit-linear-gradient(top, rgb(221, 241, 255), rgb(215, 251, 243));
+background: -moz-linear-gradient(top, rgba(221, 241, 255), rgba(215, 251, 243));
+background: linear-gradient(to bottom, rgba(221, 241, 255), rgba(215, 251, 243));
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="email"]{
+    border: 1px solid white;
+    /* border-radius: 20px; */
+    padding: 20px;
+    /* outline: none; */
+    color:white;
+    background: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="email"]:focus{
+    outline: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#footer{
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.ZkGGGv75q-DxZi-qR1gwygHaD4&pid=Api&P=0&w=321&h=168');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type="email"]::placeholder{
+    color:white;
+    /* opacity: 0; */
 }
