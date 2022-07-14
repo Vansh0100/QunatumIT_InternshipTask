@@ -9,7 +9,7 @@ function LargeScreen() {
             <div className="w-3/5 flex justify-center">
               <div className="w-4/5  text-left">
                 <p className=" text-2xl">Ki Name Bolbo Tomako</p>
-                <h1>
+                <h1 className="text-5xl leading-snug">
                   We Are Consulting For Your <br />
                   Business Finances
                 </h1>
@@ -42,7 +42,7 @@ function LargeScreen() {
           <div className="w-4/5  h-full flex justify-center p-16 ">
             <div className="w-3/5 flex justify-center ">
               <div className="w-4/5  text-left">
-                <h1>We Have Many Year Experience In Consultant Business.</h1>
+                <h1 className="text-5xl leading-normal">We Have Many Year Experience In Consultant Business.</h1>
                 <p className="text-xl mt-4 leading-10">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
                   provident quo aut doloribus temporibus sapiente dolore
@@ -127,10 +127,10 @@ function SmallScreen() {
             <div className="w-full flex justify-center">
               <div className="w-full  text-center">
                 <p className=" text-md">Ki Name Bolbo Tomako</p>
-                <h3>
+                <h2 className="text-3xl leading-normal">
                   We Are Consulting For Your <br />
                   Business Finances
-                </h3>
+                </h2>
                 <p className=" text-lg mt-2 mb-4 leading-8">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Voluptates repellat, alias omnis ut incidunt molestias
@@ -162,7 +162,7 @@ function SmallScreen() {
             </div>
             <div className="w-full flex justify-center ">
               <div className="w-full  text-center">
-                <h1>We Have Many Year Experience In Consultant Business.</h1>
+                <h2 className="text-3xl leading-normal">We Have Many Year Experience In Consultant Business.</h2>
                 <p className="text-lg mt-4 mb-5 leading-8">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
                   provident quo aut doloribus temporibus sapiente dolore
