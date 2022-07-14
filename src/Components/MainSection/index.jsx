@@ -8,7 +8,7 @@ function LargeScreen() {
           <div className="w-4/5  h-full flex justify-center p-16">
             <div className="w-3/5 flex justify-center">
               <div className="w-4/5  text-left">
-                <p className=" text-2xl">Ki Name Bolbo Tomako</p>
+                <p className=" text-xl mb-2">Ki Name Bolbo Tomako</p>
                 <h1 className="text-3xl">
                   We Are Consulting For Your <br />
                   Business Finances
