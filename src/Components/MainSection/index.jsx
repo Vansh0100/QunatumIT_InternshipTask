@@ -9,7 +9,7 @@ function LargeScreen() {
             <div className="w-3/5 flex justify-center">
               <div className="w-4/5  text-left">
                 <p className=" text-2xl">Ki Name Bolbo Tomako</p>
-                <h1 className="text-5xl leading-snug">
+                <h1 className="text-3xl">
                   We Are Consulting For Your <br />
                   Business Finances
                 </h1>
@@ -42,7 +42,7 @@ function LargeScreen() {
           <div className="w-4/5  h-full flex justify-center p-16 ">
             <div className="w-3/5 flex justify-center ">
               <div className="w-4/5  text-left">
-                <h1 className="text-5xl leading-normal">We Have Many Year Experience In Consultant Business.</h1>
+                <h1 className="text-4xl">We Have Many Year Experience In Consultant Business.</h1>
                 <p className="text-xl mt-4 leading-10">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
                   provident quo aut doloribus temporibus sapiente dolore

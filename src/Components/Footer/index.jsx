@@ -14,7 +14,7 @@ function SmallScreen(){
                     </div>
                     <div className='w-full p-4'>
                         <div className='flex flex-col gap-3'>
-                            <div className='w-full border-1'>
+                            <div className='w-full'>
                                 <form action="">
                                     <input type="email" name="email" id="email" placeholder='Enter your email' className='p-2 w-full'/>
                                 </form>
@@ -46,7 +46,7 @@ function LargeScreen(){
                     </div>
                     <div className='w-1/2 p-4'>
                         <div className='flex flex-col gap-3'>
-                            <div className='w-full border-1'>
+                            <div className='w-full '>
                                 <form action="">
                                     <input type="email" name="email" id="email" placeholder='Enter your email' className='p-2 w-full'/>
                                 </form>
